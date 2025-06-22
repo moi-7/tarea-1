@@ -1,63 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/ico.svg" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Portafolio de Moisés Sevilla, desarrollador web"
+    />
+    <title>Portafolio - MS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="assets/ico.svg" type="image/x-icon">
-  <meta name="description" content="Portafolio de Moisés Sevilla, desarrollador web">
-  <title>Portafolio - MS</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header id="encabezado">
+      <a href="#"
+        ><img
+          src="assets/isotipo.png"
+          alt="isotipo represantivo del desarrollador web"
+          class="isotipo"
+          title="Moises Sevilla"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="#bio">Biografía</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
+    <main>
+      <section id="bio">
+        <h1>Biografía</h1>
+        <img
+          src="assets/imagen.gif"
+          alt="Imagen representativa usada como avatar"
+        />
+        <div>
+          <p>
+            ¡Hola! Soy un desarrollador web junior apasionado por crear
+            experiencias digitales atractivas y funcionales. Me especializo en
+            HTML, CSS y JavaScript, con un interés en diseño responsivo y
+            accesibilidad.
+          </p>
+          <p>
+            Si estás planeando un proyecto, estaré encantado de colaborar
+            contigo.
+          </p>
+        </div>
+      </section>
 
-  <header id="encabezado">
-    <a href="#"><img src="assets/isotipo.png" alt="isotipo represantivo del desarrollador web" class="isotipo" title="Moises Sevilla"></a>
-    <nav>
-      <ul>
-        <li><a href="#bio">Biografía</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-      </ul>
-  </header>
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article>
+          <h3>Proyecto 1: Portafolio Personal</h3>
+          <p>
+            Un sitio web que muestra mis habilidades y proyectos anteriores.
+          </p>
+          <a
+            href="https://github.com/moi-7/tarea-1"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="external-link"
+              >Portafolio
+              <img src="assets/external-link.svg" alt="External link icon"
+            /></span>
+          </a>
+        </article>
 
-  <main>
-
-    <section id="bio">
-      <h1>Biografía</h1>
-      <img src="assets/imagen.gif" alt="Imagen representativa usada como avatar">
-      <div>
-        <p>¡Hola! Soy un desarrollador web junior apasionado por crear experiencias digitales atractivas y funcionales. Me especializo en HTML, CSS y JavaScript, con un interés en diseño responsivo y accesibilidad.
-        </p>
-        <p>Si estás planeando un proyecto, estaré encantado de colaborar contigo.</p>
-      </div>
-    </section>
-
-    <section id="proyectos">
-      <h2>Proyectos</h2>
-
-      <article>
-        <h3>Proyecto 1: Portafolio Personal</h3>
-        <p>Un sitio web que muestra mis habilidades y proyectos anteriores.</p>
-        <a href="https://github.com/moi-7/tarea-1" target="_blank" rel="noopener">
-          <span class="external-link">Portafolio <img src="assets/external-link.svg" alt="External link icon"></span>
-        </a>
-      </article>
-
-      <article>
-        <h3>Proyecto 2: Lista de tareas</h3>
-        <p>Una aplicación para gestionar tareas diarias.</p>
-        <a href="https://github.com/moi-7/todo" target="_blank" rel="noopener">
-          <span class="external-link">Lista de tareas<img src="assets/external-link.svg" alt="External link icon"></span>
-        </a>
-      </article>
-      `
-    </section>
-
-  </main>
-  <footer>
-    <p>&copy; 2025 Moisés Sevilla</p>
-  </footer>
-</body>
-
+        <article>
+          <h3>Proyecto 2: Lista de tareas</h3>
+          <p>Una aplicación para gestionar tareas diarias.</p>
+          <a
+            href="https://github.com/moi-7/todo"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="external-link"
+              >Lista de tareas<img
+                src="assets/external-link.svg"
+                alt="External link icon"
+            /></span>
+          </a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Moisés Sevilla</p>
+    </footer>
+  </body>
 </html>
